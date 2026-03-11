@@ -1,0 +1,8 @@
+<svg width="640" height="220" viewBox="0 0 640 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="220" rx="28" fill="#0B1220"/>
+  <rect x="10" y="10" width="620" height="200" rx="20" stroke="#2E5BFF" stroke-width="4" opacity="0.65"/>
+  <circle cx="74" cy="110" r="38" fill="#2E5BFF" opacity="0.18"/>
+  <path d="M74 78L84 102H109L89 117L97 143L74 128L51 143L59 117L39 102H64L74 78Z" fill="#86A7FF"/>
+  <text x="140" y="102" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">ACCU</text>
+  <text x="140" y="148" fill="#9FB8FF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="2">STADIUM</text>
+</svg>

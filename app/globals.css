@@ -15,10 +15,10 @@ body {
 body {
   color: rgb(var(--fg));
   background:
-    radial-gradient(1200px 650px at 18% 0%, rgba(34, 197, 94, 0.18), transparent 60%),
-    radial-gradient(900px 520px at 65% 10%, rgba(250, 204, 21, 0.14), transparent 55%),
-    radial-gradient(1000px 620px at 85% 65%, rgba(239, 68, 68, 0.1), transparent 55%),
-    linear-gradient(180deg, rgba(10, 10, 10, 1), rgba(0, 0, 0, 1));
+    radial-gradient(1100px 640px at 10% 0%, rgba(18, 210, 80, 0.28), transparent 55%),
+    radial-gradient(900px 520px at 50% 8%, rgba(255, 215, 0, 0.20), transparent 48%),
+    radial-gradient(1100px 650px at 92% 12%, rgba(255, 59, 59, 0.20), transparent 56%),
+    linear-gradient(180deg, #041106 0%, #040404 48%, #080202 100%);
 }
 
 * {
@@ -30,5 +30,5 @@ a {
 }
 
 ::selection {
-  background: rgba(250, 204, 21, 0.3);
+  background: rgba(250, 204, 21, 0.35);
 }
