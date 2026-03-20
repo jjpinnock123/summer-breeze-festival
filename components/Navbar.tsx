@@ -18,11 +18,11 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/70 shadow-[0_12px_40px_rgba(0,0,0,0.28)] backdrop-blur-xl">
-      <div className="h-1.5 w-full bg-gradient-to-r from-green-500 via-yellow-400 to-red-500" />
+      <div className="h-2.5 w-full bg-gradient-to-r from-green-500 via-yellow-400 to-red-500" />
 
-      <div className="mx-auto flex min-h-[94px] w-full max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:min-h-[108px] sm:px-6 lg:px-8">
+      <div className="mx-auto flex min-h-[94px] w-full max-w-12xl items-center justify-between gap-3 px-4 py-3 sm:min-h-[108px] sm:px-6 lg:px-8">
         <Link href="/" className="group flex min-w-0 items-center gap-3 sm:gap-4" onClick={() => setOpen(false)}>
-          <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-[1.75rem] border border-white/15 bg-white/10 shadow-[0_0_0_1px_rgba(255,255,255,0.04),0_14px_34px_rgba(0,0,0,0.28)] ring-1 ring-yellow-300/10 sm:h-24 sm:w-24 lg:h-28 lg:w-28">
+          <div className="relative h-40 w-40 shrink-0 overflow-hidden rounded-[1.75rem] border border-white/15 bg-white/10 shadow-[0_0_0_1px_rgba(255,255,255,0.04),0_14px_34px_rgba(0,0,0,0.28)] ring-1 ring-yellow-300/10 sm:h-48 sm:w-48 lg:h-56 lg:w-56">
             <div className="absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-yellow-300/10" />
             <Image src={site.logoImage} alt="Summer Breeze logo" fill className="object-contain p-1.5 sm:p-2" priority />
           </div>
@@ -65,7 +65,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className="inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-white/15 bg-white/5 text-white shadow-[0_8px_24px_rgba(0,0,0,0.2)]"
+            className="inline-flex h-24 w-24 items-center justify-center rounded-2xl border border-white/15 bg-white/5 text-white shadow-[0_8px_24px_rgba(0,0,0,0.2)]"
             aria-label="Toggle menu"
           >
             <span className="text-xl">{open ? "×" : "☰"}</span>
@@ -75,9 +75,9 @@ export default function Navbar() {
 
       {open && (
         <div className="border-t border-white/10 bg-black/92 md:hidden">
-          <div className="mx-auto flex max-w-6xl flex-col px-4 py-4 sm:px-6">
+          <div className="mx-auto flex max-w-12xl flex-col px-4 py-4 sm:px-6">
             <div className="mb-4 flex items-center gap-3 rounded-3xl border border-white/10 bg-white/5 p-3">
-              <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-2xl border border-white/15 bg-white/10">
+              <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-2xl border border-white/15 bg-white/10">
                 <Image src={site.logoImage} alt="Summer Breeze logo" fill className="object-contain p-1.5" priority />
               </div>
               <div className="min-w-0">

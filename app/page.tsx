@@ -32,10 +32,10 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,197,94,0.20),transparent_35%),radial-gradient(circle_at_top,rgba(250,204,21,0.16),transparent_30%),radial-gradient(circle_at_top_right,rgba(239,68,68,0.18),transparent_35%),linear-gradient(to_right,rgba(0,0,0,0.92),rgba(0,0,0,0.72),rgba(0,0,0,0.82))]" />
         </div>
 
-        <div className="relative mx-auto grid w-full max-w-6xl gap-10 px-4 py-14 sm:px-6 sm:py-20 lg:grid-cols-2 lg:items-center lg:px-8">
+        <div className="relative mx-auto grid w-full max-w-12xl gap-10 px-4 py-14 sm:px-6 sm:py-20 lg:grid-cols-2 lg:items-center lg:px-8">
           <div>
             <div className="flex flex-wrap items-center gap-4">
-              <div className="relative h-20 w-20 overflow-hidden rounded-[1.6rem] border border-white/15 bg-white/5 sm:h-24 sm:w-24">
+              <div className="relative h-40 w-40 overflow-hidden rounded-[1.6rem] border border-white/15 bg-white/5 sm:h-48 sm:w-48">
                 <Image src={site.logoImage} alt="Summer Breeze logo" fill className="object-contain p-2" priority />
               </div>
               <Image src="/images/accu-badge.svg" alt="ACCU Stadium badge" width={200} height={69} className="h-auto w-[170px] sm:w-[220px]" />
@@ -54,8 +54,8 @@ export default function HomePage() {
               {site.name}
             </h1>
 
-            <p className="mt-4 max-w-2xl text-base text-white/80 sm:text-lg">{site.tagline}</p>
-            <p className="mt-4 max-w-2xl text-sm text-white/70 sm:text-base">{site.intro}</p>
+            <p className="mt-4 max-w-4xl text-base text-white/80 sm:text-lg">{site.tagline}</p>
+            <p className="mt-4 max-w-4xl text-sm text-white/70 sm:text-base">{site.intro}</p>
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
@@ -78,7 +78,7 @@ export default function HomePage() {
           <div className="rounded-[2rem] border border-white/10 bg-black/30 p-4 backdrop-blur sm:p-6">
             <div className="relative overflow-hidden rounded-[1.6rem] border border-white/10 shadow-[0_0_40px_rgba(0,0,0,0.25)]">
               <Image src={site.heroImage} alt="Festival poster" width={1200} height={900} className="h-auto w-full object-cover saturate-125" />
-              <div className="absolute left-0 top-0 h-1.5 w-full bg-gradient-to-r from-green-500 via-yellow-400 to-red-500" />
+              <div className="absolute left-0 top-0 h-2.5 w-full bg-gradient-to-r from-green-500 via-yellow-400 to-red-500" />
             </div>
 
             <div className="mt-5 rounded-[1.6rem] border border-white/10 bg-white/5 p-5">
@@ -97,7 +97,7 @@ export default function HomePage() {
       </section>
 
       <section className="pb-14">
-        <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-12xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-4 lg:grid-cols-2">
             <MiniCard title="Audience" bullets={site.audience} />
             <MiniCard title="Why ACCU Stadium" bullets={site.whyAccu} />
@@ -106,12 +106,12 @@ export default function HomePage() {
       </section>
 
       <section className="pb-16">
-        <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-12xl px-4 sm:px-6 lg:px-8">
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur sm:p-8">
             <div className="grid gap-6 lg:grid-cols-[1.4fr_0.6fr] lg:items-center">
               <div>
                 <h2 className="text-2xl font-semibold text-white sm:text-3xl">Start building momentum now</h2>
-                <p className="mt-3 max-w-2xl text-white/75">
+                <p className="mt-3 max-w-4xl text-white/75">
                   Ticket phases, artist announcements, vendor applications and sponsorship conversations can all be driven from this website as the festival moves toward launch.
                 </p>
                 <div className="mt-5 flex flex-wrap gap-3">

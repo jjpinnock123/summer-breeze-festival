@@ -6,7 +6,7 @@ import { site } from "@/lib/siteData";
 export default function ContactPage() {
   return (
     <main className="py-14">
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
         <PageHero
           kicker="Contact"
           title="Tickets • Vendors • Artists • Partners"

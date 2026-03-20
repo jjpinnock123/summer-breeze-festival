@@ -4,7 +4,7 @@ import { site } from "@/lib/siteData";
 export default function PartnersPage() {
   return (
     <main className="py-14">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-12xl px-4 sm:px-6 lg:px-8">
         <PageHero
           kicker="Partners & Investment"
           title="Build with Summer Breeze"
