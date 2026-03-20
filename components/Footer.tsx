@@ -9,8 +9,9 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-[1.2fr_0.8fr_0.8fr]">
           <div>
             <div className="flex flex-wrap items-center gap-4">
-              <div className="relative h-20 w-20 overflow-hidden rounded-3xl border border-white/15 bg-white/5">
-                <Image src={site.logoImage} alt="Summer Breeze logo" fill className="object-contain p-2" />
+              <div className="relative h-24 w-24 overflow-hidden rounded-[1.75rem] border border-white/15 bg-white/8 shadow-[0_14px_34px_rgba(0,0,0,0.24)] ring-1 ring-yellow-300/10 sm:h-28 sm:w-28">
+                <div className="absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-yellow-300/10" />
+                <Image src={site.logoImage} alt="Summer Breeze logo" fill className="object-contain p-2.5" />
               </div>
               <Image src="/images/accu-badge.svg" alt="ACCU Stadium badge" width={180} height={62} className="h-auto w-[160px]" />
             </div>
